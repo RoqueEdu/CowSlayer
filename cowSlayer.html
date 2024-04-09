@@ -1,0 +1,639 @@
+<style></style>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   
+    <link rel="stylesheet" href="/styles/cowStyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="/img/cowSlayer.svg">
+    
+    <title>Jogo da Vaca</title>
+ 
+</head>
+<body>
+
+<!-- NAVIGATION MENU -->
+<nav class="Navigation">
+
+
+<div>
+
+    <a href="#start"><h1 class="TextLinkHover">COW SLAYER</h1></a>
+</div>
+
+<div class="navigationGrid">
+
+    <a href="#trailer"  class="TextLinkHover">trailer</a>
+    <a href="#sobre" class="TextLinkHover">sobre</a>
+    <a href="#magias" class="TextLinkHover">magias</a>
+    <a href="#upgrades" class="TextLinkHover">upgrades</a>
+    <a href="#itens" class="TextLinkHover">itens</a>
+    <a href="#runas" class="TextLinkHover">runas</a>
+    <a href="#jogue" class="TextLinkHover">jogar</a>
+
+</div>
+
+</nav>
+
+
+<!-- NAVIGATION END -->
+
+
+<!-- Titulo -->
+ <section class="preto fullscreen centerNoGrid snap " id="start">
+
+
+
+    <div class="fullscreen" style="display: flex;">
+
+        <video autoplay muted loop class="bgVideo">
+            <source src="img/Loopingtitle-1.mp4" type="video/mp4">
+        </video>
+        
+    </div>
+
+
+        <div>
+        <img src="img/cowSlayer.svg" alt="Cow Slayer Logo" class="logo"> 
+    
+        <a href="http://www.google.com" target="_blank">
+        <h1 class="Play">Jogue Agora</h1>
+        </a>
+    
+        </div>  
+
+
+
+
+
+ </section>
+
+<!-- TRAILER -->
+<section class="preto fullscreen centerNoGrid snap" id="trailer">
+
+
+    <iframe class="youtube"  src="https://www.youtube.com/embed/0HYxDdPEndw" title="[SNES] - Side Pocket OST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; web-share" allowfullscreen></iframe>
+
+
+</section>
+<!-- TRAILER END -->
+
+<!-- SOBRE -->
+<section class="Center vermelho fullscreen snap" id="sobre">
+
+    <h1>Sobre</h1>
+
+    <div class="wideHalf Center">
+    <p>Cow Slayer é mooito bom</p>
+    </div>
+
+
+</section>
+ <!-- SOBRE END -->
+
+<!-- MAGIAS -->
+<section  id="magias" class="centerNoGrid fullscreen snap">
+   
+  
+    <h1>MAGIAS</h1>
+    <p>Evolua magias para limpar o campo de batalha</p>
+    <p>  </p>
+
+
+    <div class="magiasDiv">
+
+        <div class="videoContainer">
+
+            <video src="img/skills/videos/holyCross.mp4"  id="magiaVideo"  autoplay loop muted type="video/mp4"></video>
+
+        </div>
+       
+      
+
+<div class="magiasButtonGrid">
+    
+    <img src="img/skills/holyCross.png"  class="magiasButtons" tabindex="0" id="hammer"> </img>
+    <img src="img/skills/poisonPotion.png" class="magiasButtons" tabindex="1"  id="poisonPotion"> </img>
+    <img src="img/skills/fireAura.png" class="magiasButtons" tabindex="2" id="fireAura"> </img>
+    <img src="img/skills/lightning.png" class="magiasButtons" tabindex="3" id="lightning"> </img>
+</div>
+
+    </div>
+
+    
+        <h1 id="SkillName">Holy</h1>
+        <div class="wideHalf">
+        <p id="SkillDesc">descriçao aaaaaaaaaaaaaaaaaa</p>
+    </div>  
+
+</section>
+<!-- MAGIAS END -->
+
+<!-- UPGRADES -->
+<section class="vermelho leftSection fullscreen snap" id="upgrades">
+
+    <div>
+        
+        <div class=" ImageText leftGrid " >
+            
+            <h1 >Upgrades</h1>
+            <img src="img/bifeTest.png" alt="" class="TitleImages">
+
+        </div>
+            <p>Derrote inimigos e adquira upgrades para ajudar em futuras tentativas</p>
+   
+    </div>
+
+    <div class="">
+        <img src="img/upgrades.png" alt="" class="sideImage ">
+    </div>
+
+
+</section>
+<!-- UPGRADES END -->
+
+<!-- ITENS -->
+<section class="preto rightSection fullscreen snap" id="itens">
+
+<!-- GRID ITENS -->
+<div class="itensGrid">
+
+
+
+    <!-- ITEM 0 -->
+    <div class="hasTooltip omegaSpanned">
+
+        <img src="img/itens/Soul Shield.png" alt="" class="TitleImages ">
+    
+    
+        <div class="tooltipInformation">
+                 
+            <h1>Escudo da Alma</h1>
+            <h2>Item Especial</h2>
+            <p>
+    
+            <b>Defesa:</b> +100 
+            <br/>                      
+            <b>Vida:</b> +200     
+            <br/>                         
+            <b>Taxa de Lançamento:</b> +25%     
+            <br/>                         
+            <b>Chance de Ataque Crítico:</b> +2%                          
+        
+    
+         </p>
+    
+         <p class="special">
+            <b>
+            +2 Todas as Habilidades                         
+         </b>      
+
+         </p>
+    
+    
+        </div>
+    
+    
+    </div>
+    <!-- ITEM 0 FIM -->
+
+        <!-- ITEM 1 AURA SWORD -->
+   <div class="hasTooltip spanned">
+
+    <img src="img/itens/Broken Sword.png" alt="" class="TitleImages ">
+
+
+    <div class="tooltipInformation">
+             
+        <h1>Espada Quebrada</h1>
+        <h2>Item Especial</h2>
+        <p>
+
+        <b>Chance de Ataque Crítico:</b> +5%                          
+        <br/>
+
+     </p>
+
+     <p class="special">
+        <b>
+        +15 Campo Infernal                           
+        <br/>
+
+        +5 Campo Elétrico                
+       
+     </b>      
+     <p class="redSpecial">
+<b>
+    <br>
+        Reserva de Mana é Esvaziada
+    </b>
+     </p>
+
+
+    </div>
+
+
+</div>
+        <!-- ITEM 1 FIM -->
+
+
+
+
+    <!-- ITEM 2 Glass Armor -->
+    <div class="hasTooltip spanned">
+
+        <img src="img/itens/Glass Armor.png" alt="" class="TitleImages ">
+    
+        <div class="tooltipInformation">
+                 
+            <h1>Armadura de Vidro</h1>
+            <h2>Item Especial</h2>
+            <p>
+            <b>Taxa de Lançamento:</b> +50%                          
+            <br/>
+         </p>
+    
+         <p class="special">
+            <b>
+            +5 Todas Habilidades <br />
+            +5 Maestria em Lançamento <br />
+            +5 Contemplação <br />
+            +2 Poção de Veneno <br />
+  
+         </b>      
+         <p class="redSpecial">
+           <b>
+        <br/>
+            Receber qualquer dano resultará em morte
+        </b>
+         </p>
+    
+    
+        </div>
+    
+    
+        </div>
+    <!-- ITEM 2 FIM -->
+
+
+    <!-- ITEM 3  IRON BOOTS (LINHA2)-->
+        <div class="hasTooltip end">
+
+            <img src="img/itens/Iron Boots.png" alt="" class="TitleImages ">
+        
+          
+                <div class="tooltipInformation">
+             
+                    <h1>Botas de Ferro</h1>
+                    <h2>Item Especial</h2>
+                    <p>
+        
+                    <b>Defesa:</b> +150                         
+                    <br/>
+        
+                    <b>Velocidade de Movimento:</b> <span class="redSpecial">-15%</span> 
+                </div>
+
+        
+        </div>
+    <!-- ITEM 3 FIM -->
+
+
+    <!-- ITEM 4  (LINHA2)-->
+    <div class="hasTooltip end">
+
+        <img src="img/itens/Green Cap.png" alt="" class="TitleImages ">
+    
+        <div class="tooltipInformation">
+
+
+            <h1>Um Capuz Verde</h1>
+            <h2>Item Especial</h2>
+            <p>
+
+            <b>Defesa:</b> +75                          
+            <br>
+
+            <b>Regeneração de Vida:</b> +5%            
+            <br>
+
+            <b>Regeneração de Mana:</b> +10%             
+            
+
+         </p>
+
+         <p class="special">
+            <b>
+            +2 Todas Habilidades                           
+            <br>
+
+            +2 Maestria em Lançamento                
+            <br>
+
+           +2 Contemplação                       
+           
+         </b>      
+
+        </p>
+           
+
+        </div>
+    
+        </div>
+<!-- ITEM 4 FIM -->
+
+
+
+
+    <!-- ITEM 5  (LINHA2)-->
+        <div class="hasTooltip end">
+
+            <img src="img/itens/Mistery Armor.png" alt="" class="TitleImages ">
+        
+            <!-- inicio desc -->
+            <div class="tooltipInformation">
+                 
+                <h1>Mistério</h1>
+                <h2>Item Especial</h2>
+                <p>
+        
+                <b>Defesa:</b> +75 <br/>
+                <b>Vda:</b> +100 <br/>
+                <b>Taxa de Lançamento:</b> +50% <br/>
+        
+             </p>
+        
+             <p class="special">
+                <b>
+                +2 Todas Habilidades
+             </b>      
+
+
+        <p class="Special">
+
+         <b>
+            <br/>
+            Reduz tempo de recarga de teleporte para 30s
+            </b>
+        </p>
+
+        </div>
+        <!-- fim desc -->
+        
+     </div>
+    <!-- ITEM 5 FIM -->
+
+
+
+ 
+
+     <!-- ITEM 6 CRIT SWORD -->
+
+        <div class="hasTooltip spanned">
+
+            <img src="img/itens/Plague Doctor Mask.png" alt="" class="TitleImages ">
+        
+            <div class="tooltipInformation">
+                 
+                <h1>Máscara do Médico da Peste</h1>
+                <h2>Item Especial</h2>
+                <p>
+        
+                <b>Defesa:</b> +45 <br/>
+                <b>Regeneração de Vida:</b> <span class="redSpecial">-2%</span> <br/>
+                <b>Regeneração de Mana:</b> +10% <br/>
+        
+             </p>
+        
+             <p class="special">
+                <b>
+                +3 Habilidade de Veneno                          
+                <br/>
+        
+                +1 Poção de Veneno               
+                <br/>
+             </b>      
+             <p class="redSpecial">
+        <b>
+            <br/>
+                Drena vida do personagem por segundo
+            </b>
+             </p>
+        
+        
+            </div>
+        
+        </div>
+
+    <!-- ITEM 6 FIM -->
+        
+        
+        
+        
+        <!-- ITEM 7 CRIT SWORD -->
+            <div class="hasTooltip spanned">
+        
+                <img src="img/itens/CritSword.png" alt="" class="TitleImages ">
+            
+                <div class="tooltipInformation">
+                 
+                    <h1>Cristális</h1>
+                    <h2>Item Especial</h2>
+                    <p>
+            
+                    <b>Taxa de Lançamento:</b> +10% <br/>
+                    <b>Mana:</b> +250 <br/>
+                    <b>Regeneração de Mana:</b> +15% <br/>
+                    <b>Chance de Ataque Crítico:</b> +25% <br/>
+            
+                 </p>
+            
+                 <p class="special">
+                    <b>
+                    +1 Todas as Habilidades
+                 </b>      
+                 
+            
+            
+                </div>
+            
+                </div>
+         <!-- ITEM 7 FIM -->
+
+
+
+         <!-- ITEM 8 -->
+    <div class="hasTooltip omegaSpanned">
+
+        <img src="img/itens/Kite Shield.png" alt="" class="TitleImages ">
+    
+    
+        <div class="tooltipInformation">
+                 
+            <h1>Escudo Pipa</h1>
+            <h2>Item Especial</h2>
+            <p>
+    
+            <b>Defesa:</b> +50 <br/>
+            <b>Vida:</b> +250 <br/>
+            <b>Taxa de Lançamento:</b> +10% <br/>
+            <b>Chance de Ataque Crítico:</b> +8% <br/>
+    
+         </p>
+    
+         <p class="special">
+            <b>
+            +3 Lança Voadora
+         </b>      
+         
+    
+    
+        </div>
+    
+    
+    
+    </div>
+            <!-- ITEM 8 FIM -->
+
+    </div>
+<!-- FIM GRID ITENS -->
+    
+    <div class="rightText">
+        
+    <div class="ImageText rightGrid" >
+
+        <img src="img/itens/Green Cap.png" alt="" class="TitleImages">
+        <h1 >Itens</h1>
+
+    </div>
+        <p>Compre itens para fortalecer habilidades e seu personagem</p>
+
+    </div>
+
+
+</section>
+<!-- FIM ITENS -->
+
+
+<!-- RUNAS -->
+<section class="vermelho leftSection fullscreen snap" id="runas">
+
+
+    <div>
+         <div>
+        
+         <div class="ImageText leftGrid" >
+            
+                 <h1 >Runas</h1>
+             <img src="img/runes/Rune Ground.png" alt="" class="TitleImages">
+
+            </div>
+
+                 <p>Obtenha runas que irão te ajudar no combate</p>
+
+        </div>
+    
+    </div>
+
+
+ <!-- MENU DAS RUNAS -->
+    <div >
+
+        <div>
+   
+             <div>
+
+                <img src="img/brightTest.png" class="pixelated rotate Brilho">
+                <img src="img/runes/Fire Rune.png" class="staticCenter DisplayRune" id="RuneImage">
+                
+             </div>
+   
+   <div style="text-align: center; ">
+   
+       <h1 id="RuneName">Runa de Fogo</h1>
+       <p id="RuneDescription" >Aumenta dano elemental de fogo em X%</p>
+       <p></p>
+       </div>
+   
+   
+       </div>  
+   
+       <div class="RunesGrid">
+
+
+      
+        <img src="img/runes/Mana Rune.png" alt="" class="magiasButtons"  id="ManaRune" >
+
+  
+
+       <img src="img/runes/Double Cast Rune.png" alt="" class="magiasButtons"  id="DoubleRune">
+
+       <img src="img/runes/Explosion Area Rune.png" alt="" class="magiasButtons" id="ExplosionRune">
+
+       <img src="img/runes/Projectile Speed Rune.png" alt="" class="magiasButtons" id="ProjectileRune">
+       
+       <img src="img/runes/Fire Rune.png" alt="" class="magiasButtons" id="FireRune">
+
+       <img src="img/runes/Ice Rune.png" alt="" class="magiasButtons" id="IceRune">
+
+       <img src="img/runes/Lightning Rune.png" alt="" class="magiasButtons" id="LightRune">
+
+       <img src="img/runes/Poison Rune.png" alt="" class="magiasButtons" id="PoisonRune">
+
+       <img src="img/runes/Normal Rune.png" alt="" class="magiasButtons" id="NormalRune">
+
+      
+   
+   </div>
+   
+</div>
+
+<!-- FIM DE MENU RUNAS -->
+
+</section>
+<!-- RUNAS FIM -->
+
+
+
+
+<!-- FINAL -->
+
+
+<section class="preto fullscreen centerNoGrid snap" id="jogue">
+
+    <!-- video -->
+
+    <div class="fullscreen" >
+    <video autoplay muted loop class="bgVideo">
+        <source src="img/Loopingtitle-1.mp4" type="video/mp4">
+    </video>
+
+    <!-- video end -->
+
+    <!-- gameLogo -->
+        <div>
+              <img src="img/cowSlayer.svg" alt="Cow Slayer Logo" class="logo"> 
+
+             <a href="http://www.google.com" target="_blank">
+                <h1 class="Play">Jogue Agora</h1>
+             </a>
+
+        </div>  
+    <!-- game logo end -->
+
+    <!-- twofarlogo -->
+    <div>
+        <a href="https://twofar.itch.io"  target="_blank">
+         <img src="img/twofar.svg" alt="TwoFar Logo" class="hoverMouse twofar"> 
+         </a>
+    </div>
+ <!-- twofarlogo -->
+
+ </section>
+<!-- final -->
+</div>
+<script src="/scripts/cowSlayer.js"></script>
+</body>
+</html>
