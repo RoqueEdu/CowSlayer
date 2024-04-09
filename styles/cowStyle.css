@@ -583,7 +583,7 @@ body {
     transition: all .1s ease-in-out; 
     image-rendering: pixelated;
     align-items: center;
-    filter:grayscale() brightness(0.5) drop-shadow(5px 10px 10px #000000);
+    filter:grayscale() brightness(0.7) drop-shadow(5px 10px 10px #000000);
     height: 3.5rem;
     width: 3.5rem;
 
