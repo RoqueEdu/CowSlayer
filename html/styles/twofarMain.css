@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'Hubot Sans';
+    src:
+      url('/fonts//HubotSans[slnt\,wdth\,wght].woff2') format('woff2 supports variations'),
+      url('/fonts//HubotSans[slnt\,wdth\,wght].woff2') format('woff2-variations');
+    font-weight: 200 900;
+    font-stretch: 75% 125%;
+  }
+
+:root {
+--vermelho: #e8233b;
+--branco: #f2f2f2;
+--preto: #212123;
+}
+
+
+/* ================================================================= */
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    border: 0;
+    max-width: 100svw;
+    border: none;
+
+}
+
+img {
+
+    max-width: 100svw;
+    max-height: 100svh;
+}
+
+a,a:visited {
+    text-decoration: none;
+    color:var(--branco);
+}
+
+/* fontes */
+h1, h2 {
+    font-family: 'Hubot-Sans', sans-serif;
+    font-weight: 900;
+    max-height: fit-content;
+  
+    margin: auto;
+}
+
+h1 { 
+    color: var(--preto);
+    font-size: 8vw;
+}
+
+h2 {
+    color: var(--branco);
+    font-size: 5vw;
+}
+
+ p, a {
+    font-family: 'Hubot-Sans', sans-serif;
+    font-weight: lighter;
+    color: var(--branco);
+    font-size: 1vw;
+}
+
+
+/* EFFECTS ================================= */
+
+.hover {
+
+    transition: all .1s ease-in-out;
+}
+
+.hover:hover {
+
+    transform: scale(1.1);
+}
+
+/*  =============================================================== */
+
+
+
+.twofarLogo {
+
+height: 50vh;
+width: 50vw;
+
+
+}
+
+/* BG ======================================= */
+.redBG {
+
+
+    background-color: var(--vermelho);
+}
+
+.blackBG {
+
+   background-color: var(--preto);
+}
+
+.whiteBG {
+
+    background-color: var(--branco);
+ }
+
+
+.whiteBG p, .whiteBG a {
+
+    color: var(--preto);
+}
+
+
+
+
+/* BG=================================================== */
+
+.TitleGrid {
+
+
+    display: grid;
+    grid-template-rows: 5fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.TopDowncenter {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    gap: 5vw 5vw;
+
+}
+.LeftRightcenter {
+
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+
+    align-items: center;  
+    text-align: left;
+
+   
+
+    gap: 5vw 5vw;
+}
+
+
+.fullscreen {
+
+    box-sizing: border-box;
+    padding: 0 5rem 0 5rem;
+
+    
+    height: 100%; 
+     width: 100%;
+    
+    min-height: 100svh;
+    /* min-width: 100svw; */
+
+   
+}
+
+
+/* games section */
+
+
+.gamesGrid {
+
+    width: 75%;
+    height: 100%;
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, minmax(300px, 18vw));
+
+    justify-content: center;
+    align-items: center;
+
+    justify-items: center;
+
+    gap: 1vw 1vw;
+
+
+}
+
+.imageContainer {
+
+    display: block;
+
+}
+
+.gamesImages {
+   
+
+    overflow: hidden;
+
+    object-fit: contain; 
+
+    min-width: 50%;
+    min-height: 50%;
+
+   width: 100%;
+   height: 100%;
+
+    max-width: 25vw;
+    max-height: 25vh;
+
+
+
+    filter: drop-shadow(0px 2px 15px rgba(0, 0, 0, 0.2));
+    
+}
+
+
+
+/*  */
+
+
+
+.rounded {
+    border-radius: 20px;
+  
+}

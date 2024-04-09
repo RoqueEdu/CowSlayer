@@ -1,0 +1,44 @@
+
+<!-- RUNAS v2-->
+<div class="vermelho">
+
+
+    <div>
+         <div>
+        
+         <div class="ImageText leftGrid" >
+            
+                 <h1 >Runas</h1>
+             <img src="img/runes/Rune Ground.png" alt="" class="TitleImages">
+
+            </div>
+
+                 <p>Obtenha runas que irão te ajudar no combate</p>
+
+        </div>
+    
+    </div>
+
+
+ <!-- MENU DAS RUNAS -->
+    <div >
+       <div class="RunesGridVDOIS">
+       
+       <img src="img/runes/Fire Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Ice Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Lightning Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Poison Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Normal Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Mana Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Double Cast Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Explosion Area Rune.png" alt="" class="magiasButtons">
+       <img src="img/runes/Projectile Speed Rune.png" alt="" class="magiasButtons">
+   
+   </div>
+   
+</div>
+
+<!-- FIM DE MENU RUNAS -->
+
+</div>
+<!-- RUNAS v2 FIM -->
