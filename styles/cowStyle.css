@@ -753,7 +753,9 @@ body {
 
 @media(max-width: 1017px) {
 
-
+.snap {
+   scroll-snap-align: none;
+}
     .navigationGrid {
         display: none;
     }
