@@ -66,8 +66,14 @@ SkillsMenu(hammer, hammerButton);
 
 function SkillsMenu(id, element) {
 
+   
+   
     if (element == lastClicked)
          return;
+  
+       
+ 
+
 
     lastClicked.className = "magiasButtons" ;
     element.className = "magiasButtonsClicked";     
@@ -79,6 +85,8 @@ function SkillsMenu(id, element) {
     videoElement.src = videoFolder + id.videoID;
 
     lastClicked = element;
+
+    
 
 }
 
@@ -207,9 +215,9 @@ function RuneMenu (newSrc, RuneClicked) {
     if (lastRuneClicked == RuneClicked)
      return;
 
-    lastRuneClicked.className = "magiasButtons" ;
+    lastRuneClicked.className = "runesButtons" ;
 
-    RuneClicked.className = "magiasButtonsClicked";     
+    RuneClicked.className = "runesButtonsClicked";     
 
     runeDisplay.src = newSrc.runeImage;
     runeNameDisplay.innerHTML = newSrc.runeName;

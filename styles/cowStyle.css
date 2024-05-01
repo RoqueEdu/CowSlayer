@@ -1,7 +1,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 html {
 
   margin:0px;
@@ -14,10 +14,24 @@ html {
   scroll-snap-type: y proximity;
 
 
-  cursor: url(/img/Cursor.png),  auto;
-  cursor: url(/img/Cursor.png),  pointer;
+ cursor: url(/img/Cursor.png),  auto;
+  /*cursor: url(/img/Cursor.png),  pointer;*/
 
  
+}
+
+.trailerContainer {
+   
+   display: flex;
+    min-width: 60vw;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#trailer {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -263,7 +277,7 @@ a,a:visited {
 }
 
 .heightFull {
-    min-height: 100vh;
+    height: 100vh;
     min-width: fit-content;
 }
 
@@ -393,8 +407,8 @@ justify-content: center;
 
 p {
     height: fit-content;
-    margin-top: .7rem;
-    margin-bottom: .7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 
 
 }
@@ -555,7 +569,7 @@ body {
     max-width: 40vw;
     width: 40vw;
     border-radius: 10px;
-    min-width: 25w;
+    min-width: 25vw;
     aspect-ratio: 16 / 9;
 
 
@@ -574,6 +588,7 @@ body {
     align-content: center;
     justify-content: center;
     justify-items: center;
+    justify-self: center;
     align-items: center;
    
 }
@@ -583,7 +598,7 @@ body {
     transition: all .1s ease-in-out; 
     image-rendering: pixelated;
     align-items: center;
-    filter:grayscale() brightness(0.7) drop-shadow(5px 10px 10px #000000);
+    filter:grayscale() brightness(0.5) drop-shadow(5px 10px 10px #000000);
     height: 3.5rem;
     width: 3.5rem;
 
@@ -610,9 +625,41 @@ body {
     transform: scale(1.2);
 }
 
+/* RUNE BUTTONS */
+.runesButtons {
+
+    transition: all .1s ease-in-out; 
+    image-rendering: pixelated;
+    align-items: center;
+    filter:brightness(0.7)  drop-shadow(5px 5px 5px #00000065);
+    height: 3.5rem;
+    width: 3.5rem;
+
+}
+
+.runesButtons:hover { 
+
+    transform: scale(1.2);
+}
 
 
+.runesButtonsClicked {
 
+
+    transition: all .1s ease-in-out; 
+    image-rendering: pixelated;
+    align-items: center;
+    filter: drop-shadow(5px 5px 5px #0000008f);
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 9999;
+    transform: scale(1.3);
+
+    
+
+    animation: shine 3s infinite linear;
+
+}
 
 
 
@@ -753,9 +800,16 @@ body {
 
 @media(max-width: 1017px) {
 
-.snap {
-   scroll-snap-align: none;
-}
+
+    .wideHalf {
+       
+        width: 75vw;
+
+    }
+
+    .snap {
+        scroll-snap-align: none;
+    }
     .navigationGrid {
         display: none;
     }
@@ -859,5 +913,39 @@ body {
     }
  
 
+/* */ 
+   .videoContainer {
+    max-height: 100%;
+    max-width:  100%;
+    height: 100%;
+    width: 100%;
+    }
+
+
+    .magiasDiv {
+
+        max-width: 90%;
+        width: 90%;
+        justify-content: center;
+    }
+
+    .centerNoGrid {
+
+        justify-content: center;
+      
+    }
+
+    #runas {  padding-bottom: 50px;}
+
+}
+
+@media(max-height: 700px) {
+
+    .magiasDiv {
+
+        max-width: 60%;
+        width: 60%;
+        justify-content: center;
+    }
 
 }
