@@ -20,6 +20,14 @@ html {
  
 }
 
+a {
+  cursor: url(img/Cursor.png),  pointer;
+}
+
+a h1 {
+  cursor: url(img/Cursor.png),  pointer;
+}
+
 .trailerContainer {
    
    display: flex;
