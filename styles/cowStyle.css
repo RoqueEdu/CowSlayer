@@ -20,13 +20,8 @@ html {
  
 }
 
-a {
-  cursor: url(img/Cursor.png),  pointer;
-}
 
-a h1 {
-  cursor: url(img/Cursor.png),  pointer;
-}
+
 
 .trailerContainer {
    
@@ -263,7 +258,11 @@ a h1 {
 a,a:visited {
     text-decoration: none;
     color:#e6e6e6;
-    cursor: url(/img/Cursor.png),  auto;
+    cursor: url(img/Cursor.png),  auto;
+}
+
+a h1 {
+  cursor: url(img/Cursor.png),  pointer;
 }
 
 .youtube {
