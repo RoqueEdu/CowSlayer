@@ -14,7 +14,7 @@ html {
   scroll-snap-type: y proximity;
 
 
- cursor: url(/img/Cursor.png),  auto;
+ cursor: url(img/Cursor.png),  auto;
   /*cursor: url(/img/Cursor.png),  pointer;*/
 
  
@@ -601,6 +601,7 @@ body {
     filter:grayscale() brightness(0.5) drop-shadow(5px 10px 10px #000000);
     height: 3.5rem;
     width: 3.5rem;
+    cursor: url(img/Cursor.png),  pointer;
 
 }
 
@@ -634,7 +635,7 @@ body {
     filter:brightness(0.7)  drop-shadow(5px 5px 5px #00000065);
     height: 3.5rem;
     width: 3.5rem;
-
+    cursor: url(img/Cursor.png),  pointer;
 }
 
 .runesButtons:hover { 
